@@ -410,6 +410,12 @@ body{
     border-color: teal;
 }
 
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .contactInfo{
     background-color: rgb(255, 255,255 ,0.1);
     max-width: 2000px;
