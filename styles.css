@@ -121,6 +121,7 @@ body{
     text-align: left;
     margin: 0 auto;
     width: 95%;
+    margin-top: 160px;
 }
 .name h1{
     color:white;
@@ -199,6 +200,7 @@ body{
     font-size: 30px;
     border-radius: 0px 20px 20px 0px;
     padding-top:25px;
+    text-align: center;
   }
 
 .photo{
@@ -230,6 +232,7 @@ body{
     margin-top: 100px;
     font-size: 30px;
     padding-bottom: 10px;
+    
 }
 
 .work h1{
@@ -244,12 +247,11 @@ body{
     grid-template-columns: auto auto auto;
     color: white;
     margin: 0 auto;
-    width: 97%;
+    width: 95%;
 }
 .title{
     background-color: rgb(0, 0,0 ,0.2);
     padding: 15px;
-    font-size: 25px;
 }
 
 #l1{
@@ -266,6 +268,8 @@ body{
 #r2{
     border-radius: 0 0 10px 0;
 }
+
+
 .tinytom{
     background-color: rgb(255, 255,255 ,0.3);
     padding: 20px;
@@ -400,8 +404,8 @@ body{
     margin: 0;
 }
 .resume{
-    width:97.5%;
-    height: 500px;
+    width:97%;
+    height: 600px;
     border-radius: 10px;
     border-color: teal;
 }
