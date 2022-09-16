@@ -318,7 +318,7 @@ body{
 
   .content {
     display:grid;
-    max-height: 0;
+    max-height: max-content;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
     background-color: rgb(50, 50,50 ,0.3);
