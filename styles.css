@@ -317,9 +317,8 @@ body{
   }
 
   .content {
-    display:grid;
-    max-height: max-content;
-    overflow: hidden;
+    
+    overflow: auto;
     transition: max-height 0.5s ease-out;
     background-color: rgb(50, 50,50 ,0.3);
     margin: 0 auto;
@@ -331,63 +330,23 @@ body{
 
 
 .tomsphoto{
-    background-color: rgb(255, 255,255 ,0.1);
+
     padding: 20px;
     font-size: 30px;
     border-radius: 0px 0px 0px 20px;
+    float: left;
   }
 
 .tominfo{
-    background-color: rgb(255, 255,255 ,0.1);
+
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 0px 0px 20px 0px;
     text-align: left;
     color: white;
   }
 
-.tominfo a{
-    float: right;
-}
-
-.tominfo h3{
-    font-size: 25px;
-    margin: 5px;
-}
-.tominfo p{
-    font-size: 20px;
-    margin: 5px;
-}
-.tominfo ul{
-    font-size: 20px;
-    margin: 5px;
-}
-
-@media screen and (max-width: 1000px) {
-.role p{
-    display:block;
-    font-size: 20px;
-    margin:0;
-}
-.content {
-    grid-template-columns:auto;
-    height: 10000px;
-
-}
-.tomsphoto{
-    border-radius: 0;
-}
-.tominfo{
-    border-radius: 0;
-}
-
-}
-
-
-
-
 .container{
-    background-color: rgb(255, 255,255 ,0.1);
     border-radius: 20px;
     text-align: center;
     margin: 0 auto;
@@ -399,7 +358,7 @@ body{
 
 .container h1{
     color:white;
-    padding:20px;
+    padding:0px;
     text-align: left;
     margin: 0;
 }
